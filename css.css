@@ -222,16 +222,19 @@ table {
 #apresentacao {
 	max-width: 600px;
 	background-color: #1d1d1d;
-	min-height: 400px;
+	min-height: 300px;
 	display: block;
 	margin-top: auto;
+	background-image: url("images/capa.png");
+	background-size: cover;
+	background-position: center;
 }
 
 #textoapresentacao {
 	color: white;
 	display: block;
 	margin: auto;
-	min-width: 300px;
+	min-width: 200px;
 	max-width: 400px;
 	font-size: 14px;
 	font-family: lato, sans-serif;
