@@ -196,6 +196,13 @@ a:link, a:visited, a:hover, a:active {
 	display: none;
 }
 
+p.horario {
+	font-size: 16px;
+	font-family: lato, sans-serif;
+	font-weight: 700;
+	color: #909090;
+}
+
 #cabecalho {
 	background-color:#3D2A53;
 	background-image: url("images/header.png");
@@ -280,7 +287,6 @@ a:link, a:visited, a:hover, a:active {
 	padding: 30px;
 }
 
-
 .rodape {
 	display: block;
 	margin: auto;
@@ -352,6 +358,10 @@ a:link, a:visited, a:hover, a:active {
 	
 	#fechamentotexto {
 		padding-top: 60px;
+	}
+	
+	p.horario {
+		font-size: 18px;
 	}
 	
 	.rodape {
