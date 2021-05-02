@@ -185,6 +185,10 @@ table {
 	height: 100;
 }
 
+.separadorsuperior {
+	display: none;
+}
+
 #cabecalho {
 	background-color:#3D2A53;
 	background-image: url("images/header.png");
@@ -253,9 +257,28 @@ table {
 		max-width: none;
 	}
 	
+	.textopalestra h3 {
+		padding-top: 15px;
+	}
+	
+	.separador {
+		display: block;
+		height: 10px;
+		width: 100%;
+		background-image: linear-gradient(to bottom, #6b6b6b , #444444);
+	}
+	
+	.separadorsuperior {
+		display: block;
+		height: 6px;
+		width: 100%;
+		background-image: linear-gradient(to top, #6b6b6b , #222222);
+		border-top: 1px solid #222222;
+	}
+	
 	.rodape {
 		border-bottom-left-radius: 0px;
-		border-bottom-right-radiu: 0px;
+		border-bottom-right-radius: 0px;
 	}
 
 }
