@@ -252,5 +252,10 @@ table {
 		margin-top: 0px;
 		max-width: none;
 	}
+	
+	.rodape {
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radiu: 0px;
+	}
 
 }
