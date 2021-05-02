@@ -314,6 +314,7 @@ p.horario {
 	}
 	
 	#cabecalho h1, #cabecalho p {
+		margin-right: 0px;
 		width: 100%;
 	}
 	
@@ -361,7 +362,13 @@ p.horario {
 	}
 	
 	p.horario {
+		display: block;
 		font-size: 18px;
+		text-align: center;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0px;
 	}
 	
 	.rodape {
