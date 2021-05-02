@@ -216,10 +216,39 @@ table {
 	font-family: lato, sans-serif;
 	font-weight: 300;
 	color: white;
-	padding-top: 0px;
-	padding-bottom: 15px;
-	padding-left: 40px;
+	padding: 0px 30px 15px 40px;
 }
+
+#apresentacao {
+	max-width: 600px;
+	background-color: #1d1d1d;
+	min-height: 400px;
+	display: block;
+	margin-top: auto;
+}
+
+#textoapresentacao {
+	color: white;
+	display: block;
+	margin: auto;
+	min-width: 300px;
+	max-width: 400px;
+	font-size: 14px;
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	padding: 40px 30px 20px 40px;
+}
+
+#textoapresentacao h2 {
+	font-size: 26px;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+#textoapresentacao p {
+	line-height: 1.3;
+}
+
 
 .rodape {
 	display: block;
@@ -229,10 +258,17 @@ table {
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	background-color: #222222;
+	background-image: url("images/rodape.png");
+	background-position: bottom;
+	background-size: cover;
 }
 
 @media screen and (max-width: 599px) {
 
+	body {
+		background-color: #1d1d1d;
+	}
+	
 	#cabecalho {
 		border-top-right-radius: 0px;
 		border-top-left-radius: 0px;
@@ -259,6 +295,12 @@ table {
 	
 	.textopalestra h3 {
 		padding-top: 15px;
+		padding-left: 30px;
+	}
+	
+	.textopalestra p {
+		font-size: 14px;
+		padding-left: 30px;
 	}
 	
 	.separador {
