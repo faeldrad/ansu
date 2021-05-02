@@ -350,9 +350,14 @@ a:link, a:visited, a:hover, a:active {
 		border-top: 1px solid #222222;
 	}
 	
+	#fechamentotexto {
+		padding-top: 60px;
+	}
+	
 	.rodape {
 		border-bottom-left-radius: 0px;
 		border-bottom-right-radius: 0px;
+		margin-bottom: 0px;
 	}
 
 }
