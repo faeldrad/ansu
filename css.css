@@ -315,7 +315,7 @@ p.horario {
 	
 	#cabecalho h1, #cabecalho p {
 		margin-right: 0px;
-		width: 100%;
+		width: 80%;
 	}
 	
 	.conteudospalestra {
@@ -376,5 +376,11 @@ p.horario {
 		border-bottom-right-radius: 0px;
 		margin-bottom: 0px;
 	}
+}
 
+@media screen and (max-width: 349px) {
+	#cabecalho h1, #cabecalho p {
+		margin-right: 0px;
+		padding-right: 0px;
+	}
 }
