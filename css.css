@@ -187,7 +187,7 @@ table {
 
 #cabecalho {
 	background-color:#3D2A53;
-	background-image: url(images/Header.png);
+	background-image: url("images/header.png");
 	background-size: cover;
 	height: 155px;
 	border-top-left-radius: 30px;
