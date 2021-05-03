@@ -307,15 +307,33 @@ p.horario {
 		background-color: #1d1d1d;
 	}
 	
+	#header {
+		display: block;
+		background-image: url(images/header.png);
+		background-position: bottom;
+		background-size: cover;
+	}
+	
 	#cabecalho {
 		border-top-right-radius: 0px;
 		border-top-left-radius: 0px;
 		margin-top: 0px;
+		background-image: none;
+		background-color: inherit;
+	}
+	
+	#textocabecalho {
+		background-color: rgba(0,0,0,0);
+		background-image: none;
 	}
 	
 	#cabecalho h1, #cabecalho p {
 		margin-right: 0px;
 		width: 80%;
+	}
+	
+	#apresentacao {
+		display: none;
 	}
 	
 	.conteudospalestra {
@@ -376,9 +394,13 @@ p.horario {
 		border-bottom-right-radius: 0px;
 		margin-bottom: 0px;
 	}
+	
+	.espacador {
+		height: 40vh;
+	}
 }
 
-@media screen and (max-width: 349px) {
+@media screen and (max-width: 355px) {
 	#cabecalho h1, #cabecalho p {
 		margin-right: 0px;
 		padding-right: 0px;
