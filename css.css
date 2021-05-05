@@ -301,6 +301,45 @@ p.horario {
 	margin-bottom: 20px;
 }
 
+.inscrevase{
+	display: none;
+	content: "Inscreva-se!";
+	background-color: #7741b3;
+	border-radius: 40px;
+	width: 50%;
+	margin: auto;
+	font-size: 16px;
+	font-family: lato, sans-serif;
+	font-weight: 700;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: none;
+	margin-bottom: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.LinkedIn {
+	height: 16px;
+	width: 16px;
+	background-image: url(images/link.png);
+	background-size: cover;
+	margin-left: 5px;
+}
+
+.Insta {
+	height: 16px;
+	width: 16px;
+	background-image: url(images/insta.png);
+	background-size: cover;
+	margin-left: 3px;
+}
+
+.inscrevase:after {
+	content: "Inscreva-se!";
+}
+
 @media screen and (max-width: 599px) {
 
 	body {
@@ -329,7 +368,8 @@ p.horario {
 	
 	#cabecalho h1, #cabecalho p {
 		margin-right: 0px;
-		width: 80%;
+		padding-right: 0px;
+		width: 88%;
 	}
 	
 	#apresentacao {
@@ -398,11 +438,19 @@ p.horario {
 	.espacador {
 		height: 40vh;
 	}
+	
+	.inscrevase {
+		display: block;
+	}
 }
 
-@media screen and (max-width: 355px) {
-	#cabecalho h1, #cabecalho p {
-		margin-right: 0px;
-		padding-right: 0px;
+@media screen and (max-width: 390px) {
+	#cabecalho h1 {
+		padding-left: 6%;
+	}
+	
+	#cabecalho p {
+		padding-left: 6%;
+		font-size: 15px;
 	}
 }
