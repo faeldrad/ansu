@@ -122,13 +122,13 @@ a:link, a:visited, a:hover, a:active {
 	display: block;
 	margin: auto;
 	padding: 0px;
-	transition: 1s;
+	transition: 0.5s;
 	border-bottom: 1px solid #333333;
 }
 
 .active, .divisor:hover {
 	background-color:  #5C417A;
-	animation: 1s;
+	animation: 0.5s;
 }
 	
 .conteudospalestra {
