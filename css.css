@@ -287,6 +287,11 @@ p.horario {
 	padding: 30px;
 }
 
+#fechamentotexto a {
+	font-weight: 700;
+	color: #9042E3
+}
+
 .rodape {
 	display: block;
 	margin: auto;
@@ -338,6 +343,18 @@ p.horario {
 
 .inscrevase:after {
 	content: "Inscreva-se!";
+}
+
+#botaoinstagram {
+	color: rgba(0, 0, 0, 0);
+	width: 64px;
+	height: 64px;
+	background-image: url(images/insta.png);
+	background-size: cover;
+	display: block;
+	position: fixed;
+	top: 20px;
+	right: 20px;
 }
 
 @media screen and (max-width: 599px) {

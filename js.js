@@ -33,4 +33,4 @@ function preloadImages(array) {
     }
 }
 
-preloadImages(["images/p1.jpg", "images/p2.jpg", "images/p3.jpg", "images/p4.jpg", "images/p5.jpg", "images/p6.jpg", "images/p7.jpg"]);
+preloadImages(["images/p1.jpg", "images/p2.jpg", "images/p3.jpg", "images/p4.jpg", "images/p5.jpg", "images/p6.jpg", "images/p7.jpg", "images/p8.jpg"]);
