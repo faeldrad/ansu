@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -208,8 +209,6 @@ p.horario {
 	background-image: url("images/header.png");
 	background-size: cover;
 	height: 155px;
-	border-top-left-radius: 30px;
-	border-top-right-radius: 30px;
 	margin-top: 20px;
 }
 
@@ -297,8 +296,6 @@ p.horario {
 	margin: auto;
 	max-width: 600px;
 	height: 70px;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px;
 	background-color: #222222;
 	background-image: url("images/rodape.png");
 	background-position: bottom;
