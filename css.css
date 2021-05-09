@@ -111,6 +111,12 @@ a:link, a:visited, a:hover, a:active {
 	padding-left: 30px;
 }
 
+#divisor1 {
+	margin-top: 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
 .glopalestra {
 	max-height: 0;
 	overflow: hidden;
@@ -206,13 +212,20 @@ p.horario {
 }
 
 #cabecalho {
-	background-color:#3D2A53;
-	background-image: url("images/header.png");
+	height: 200px;
+	margin-top: 0px;
+	max-width: 1000px;
+}
+
+#header {
+	display: block;
+	margin: auto;
+	background-image: url(images/header.png);
+	background-position: bottom;
 	background-size: cover;
-	height: 155px;
-	margin-top: 20px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	max-width: 1000px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 #textocabecalho h1 {
@@ -221,7 +234,7 @@ p.horario {
 	font-family: lato, sans-serif;
 	font-weight: 300;
 	color: white;
-	padding-top: 46px;
+	padding-top: 86px;
 	padding-bottom: 10px;
 	padding-left: 30px;
 }
@@ -239,15 +252,16 @@ p.horario {
 	max-width: 600px;
 	background-color: #1d1d1d;
 	min-height: 300px;
-	display: block;
+	display: none;
 	margin-top: auto;
 	background-image: url("images/capa.png");
 	background-size: cover;
 	background-position: center;
 }
 
-#espacador {
-	height: 100px;
+.espacador {
+	height: 20vh;
+	transition: 0.5s;
 }
 
 #textoapresentacao {
@@ -359,25 +373,21 @@ p.horario {
 	right: 20px;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 999px) {
+	#header {
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	
+	.espacador {
+		height: 40vh;
+	}
+}
+	
+@media screen and (max-width: 899px) {
 
 	body {
 		background-color: #1d1d1d;
-	}
-	
-	#header {
-		display: block;
-		background-image: url(images/header.png);
-		background-position: bottom;
-		background-size: cover;
-	}
-	
-	#cabecalho {
-		border-top-right-radius: 0px;
-		border-top-left-radius: 0px;
-		margin-top: 0px;
-		background-image: none;
-		background-color: inherit;
 	}
 	
 	#textocabecalho {
@@ -461,6 +471,21 @@ p.horario {
 	.inscrevase {
 		display: block;
 	}
+	
+	#divisor1 {
+		margin-top: 30px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	#divisor1 {
+		margin-top: 0px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	
 }
 
 @media screen and (max-width: 390px) {
