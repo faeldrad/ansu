@@ -34,3 +34,18 @@ function preloadImages(array) {
 }
 
 preloadImages(["images/p1.jpg", "images/p2.jpg", "images/p3.jpg", "images/p4.jpg", "images/p5.jpg", "images/p6.jpg", "images/p7.jpg", "images/p8.jpg"]);
+
+var countDownDate = new Date("May 11, 2021 09:00:00").getTime();
+var x = setInterval(function() {
+	var now = new Date().getTime();
+	var distance = countDownDate - now;
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 60)) / (1000 * 60 *60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+	document.getElementById("timer").innerHTML = String(hours).padStart(2, '0') + ":" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
+		if (distance < 0) {
+			clearInterval(x);
+			document.getElementById("demo").innerHTML = "Começou!";
+		}
+}, 1000);

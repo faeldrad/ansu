@@ -75,6 +75,17 @@ a:link, a:visited, a:hover, a:active {
 	transition: 0.5s;
 }
 
+#timer {
+	font-size: 56px;
+	font-family: lato, sans-serif;
+	font-weight: 300;
+	text-align: right;
+	color: white;
+	position: relative;
+	bottom: 50px;
+	right: 20px;
+}
+
 .divisor:after {
 	content: "+";
 	float: right;
@@ -145,7 +156,7 @@ a:link, a:visited, a:hover, a:active {
 
 .imgpalestra {
 	display: block;
-	background-color: #6b6b6b;
+	background-color: #5F5F5F;
 	min-width: 230px;
 	padding-top: 16px;
 	padding-bottom: 16px;
@@ -195,7 +206,7 @@ a:link, a:visited, a:hover, a:active {
 
 .separador {
 	display: inline-flex;
-	background-image: linear-gradient(to right, #6b6b6b , #444444);
+	background-image: linear-gradient(to right, #5F5F5F, #444444);
 	width: 45px;
 	height: 100;
 }
@@ -380,7 +391,15 @@ p.horario {
 	}
 	
 	.espacador {
-		height: 40vh;
+		height: 30vh;
+	}
+	
+	p#timer {
+		font-size: 48px;
+		margin-right: 0px;
+		display: block;
+		width: 300px;
+		margin-left: auto;
 	}
 }
 	
@@ -464,10 +483,6 @@ p.horario {
 		margin-bottom: 0px;
 	}
 	
-	.espacador {
-		height: 40vh;
-	}
-	
 	.inscrevase {
 		display: block;
 	}
@@ -486,6 +501,16 @@ p.horario {
 		border-top-right-radius: 0px;
 	}
 	
+	.espacador {
+		height: 40vh;
+	}
+
+	p#timer {
+		bottom: 120%;
+		font-size: 72px;
+		text-align: center;
+	}	
+
 }
 
 @media screen and (max-width: 390px) {
@@ -497,4 +522,10 @@ p.horario {
 		padding-left: 6%;
 		font-size: 15px;
 	}
+
+	p#timer {
+		bottom: 120%;
+		font-size: 60px;
+		text-align: center;
+	}	
 }
