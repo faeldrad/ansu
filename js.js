@@ -46,6 +46,6 @@ var x = setInterval(function() {
 	document.getElementById("timer").innerHTML = String(hours).padStart(2, '0') + ":" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
 		if (distance < 0) {
 			clearInterval(x);
-			document.getElementById("demo").innerHTML = "Começou!";
+			document.getElementById("timer").innerHTML = "Começou!";
 		}
 }, 1000);
