@@ -192,16 +192,16 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .textopalestra p {
-	width: 70%;
-	display: flex;
-	font-size: 11px;
+	width: 80%;
+	display: inline-block;
+	font-size: 14px;
 	font-family: lato, sans-serif;
 	font-weight: 400;
 	color: white;
 	padding-top: 0px;
 	padding-bottom: 15px;
 	padding-left: 20px;
-	line-height: 1.2;
+	line-height: 1.3;
 }
 
 .separador {
@@ -353,6 +353,7 @@ p.horario {
 }
 
 .LinkedIn {
+	display: inline-block;
 	height: 16px;
 	width: 16px;
 	background-image: url(images/link.png);
@@ -360,10 +361,38 @@ p.horario {
 	margin-left: 5px;
 }
 
-.Insta {
+.insta {
+	display: inline-block;
 	height: 16px;
 	width: 16px;
 	background-image: url(images/insta.png);
+	background-size: cover;
+	margin-left: 3px;
+}
+
+.yt {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-image: url(images/yt.png);
+	background-size: cover;
+	margin-left: 3px;
+}
+
+.face {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-image: url(images/fb.png);
+	background-size: cover;
+	margin-left: 3px;
+}
+
+.site {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-image: url(images/site.png);
 	background-size: cover;
 	margin-left: 3px;
 }
@@ -444,8 +473,9 @@ p.horario {
 	}
 	
 	.textopalestra p {
-		font-size: 14px;
+		font-size: 16px;
 		padding-left: 30px;
+		line-height: 1.5;
 	}
 	
 	.separador {
